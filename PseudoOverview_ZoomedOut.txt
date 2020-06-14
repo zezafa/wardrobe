@@ -1,0 +1,27 @@
+Unity: Take picture 
+	One button (take picture) and camera viewer
+	
+Unity: Display picture
+	One button (back)
+		Unity: Back to take picture
+	
+Communication between PyTorch Mobile and Unity
+	
+Set up PyTorch Mobile ML
+	Get 2D skeleton
+	Get 3D skeleton cordinatees
+
+Unity: Receive data from PyTorch 
+
+Unity: Display joints and lines
+
+Unity: Instantiate T-pose char + clothe + move joints to right position
+
+SwitchClothes(cloth_1):
+	Unity: Obi cloth 
+
+	Unity: Instantiate cloth
+	
+	Unity: Move joints to right position and simulate cloth
+
+	SwitchClothes(cloth_2)
