@@ -5,14 +5,16 @@ Unity: Display picture
 	One button (back)
 		Unity: Back to take picture
 	
-Communication between PyTorch Mobile and Unity
+Old: Communication between PyTorch Mobile and Unity
+	Current: Done internally in Unity using Barracuda
 	
-Set up PyTorch Mobile ML
+Old: Set up PyTorch Mobile ML 
 	Get 2D skeleton
 	Get 3D skeleton cordinatees
 
-Unity: Receive data from PyTorch 
-
+Old: Unity: Receive data from PyTorch 
+	Current: Barracuda sends data internally
+	
 Unity: Display joints and lines
 
 Unity: Instantiate T-pose char + clothe + move joints to right position
